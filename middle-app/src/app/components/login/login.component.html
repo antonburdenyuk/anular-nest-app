@@ -1,0 +1,4 @@
+<div class="login">
+  <app-sign-in *ngIf="signIn; else signUpTemplate"></app-sign-in>
+  <ng-template #signUpTemplate><app-sign-up></app-sign-up></ng-template>
+</div>
