@@ -1,0 +1,28 @@
+<form class="login-sign-in" (ngSubmit)="onSubmit()">
+  <h3>Sign In</h3>
+
+  <mat-form-field>
+    <input 
+      matInput 
+      placeholder="Email"
+      name="email" 
+      type="text"
+      ngModel>
+  </mat-form-field>
+  
+  <mat-form-field>
+    <input 
+      matInput 
+      placeholder="Password"
+      name="password"
+      type="password"
+      ngModel>
+  </mat-form-field>
+
+  <button color="primary" class="mb-30" mat-raised-button type="submit">Sign In</button>
+
+  <div class="d-flex jc-sb">
+    <a class="underline" (click)="changeLoginComponent('signUp')">Sign up</a>
+    <a class="underline" (click)="openForgetPasswordDialog()">Forget Password</a>
+  </div>
+</form>

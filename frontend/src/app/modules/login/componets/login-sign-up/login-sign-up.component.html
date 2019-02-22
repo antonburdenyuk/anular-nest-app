@@ -1,0 +1,19 @@
+<form class="login-sign-up">
+  <h3>Sign Up</h3>
+
+  <mat-form-field>
+    <input matInput placeholder="Email" type="text" name="email" id="email">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="First Name" type="text" name="firstName" id="firstName">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Last Name" type="text" name="lastName" id="lastName">
+  </mat-form-field>
+
+  <button color="primary" class="mb-30" mat-raised-button>Sign Up</button>
+
+  <a class="underline" (click)="changeLoginComponent('signIn')">I have already registered</a>
+</form>

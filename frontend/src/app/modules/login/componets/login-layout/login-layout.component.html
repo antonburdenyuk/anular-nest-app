@@ -1,0 +1,10 @@
+<div class="login-layout">
+  <app-login-sign-in 
+    *ngIf="loginComponent === 'signIn'; else signUpTemplate"
+    (loginComponent)="onChangeLoginComponent($event)">
+  </app-login-sign-in>
+
+  <ng-template #signUpTemplate>
+    <app-login-sign-up (loginComponent)="onChangeLoginComponent($event)"></app-login-sign-up>
+  </ng-template>
+</div>

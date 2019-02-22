@@ -1,0 +1,35 @@
+/* colors utils class */
+
+.bg-green {
+    background-color: green;
+}
+
+/* indent utils class */
+
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+
+/* text decoration utils class */
+
+.underline {
+    text-decoration: underline;
+}
+
+/* box utils */
+
+.w-100 {
+    width: 100%;
+}
+
+/* flex utils */
+
+.d-flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
